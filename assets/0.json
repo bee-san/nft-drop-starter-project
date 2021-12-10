@@ -1,0 +1,19 @@
+{
+    "name": "Jojo",
+    "symbol": "",
+    "image": "0.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "0.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "DMWe6VXoEvi5VYJx18uB4efKevRSNfWbsj6o4WpLQiT1",
+          "share": 100
+        }
+      ]
+    }
+  }
