@@ -49,9 +49,6 @@ const CandyMachine = ({ walletAddress }) => {
     return provider;
   };
 
-  useEffect(() => {
-    getCandyMachineState();
-  }, []);
 
   // Declare getCandyMachineState as an async method
   const getCandyMachineState = async () => { 
@@ -125,6 +122,9 @@ setIsLoadingMints(false);
       }
     }
   };
+  useEffect(() => {
+    getCandyMachineState();
+  }, [getCandyMachineState]);
 
   const renderMintedItems = () => (
     <div className="gif-container">
